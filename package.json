@@ -17,7 +17,7 @@
     "react-scripts": "3.4.1"
   },
   "engines": {
-    "node": "10.19.0"
+    "node": "12.16.1"
   },
   "scripts": {
     "start":  "serve -s build",
