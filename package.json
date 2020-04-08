@@ -14,12 +14,11 @@
     "react-chartjs-2": "^2.9.0",
     "react-countup": "^4.3.3",
     "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
     "react-scripts": "3.4.1"
-
   },
   "engines": {
-    "node": "12.16.1",
-    "npm": "6.13.4"
+    "node": "12.16.1"
   },
   "scripts": {
     "start": "react-scripts start",

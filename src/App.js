@@ -3,13 +3,18 @@ import { Cards, Chart, CountryPicker } from './components';
 import styles from './App.module.css';
 import { fetchData } from './api';
 import corona_img from './images/image.png'
+import { useEffect } from 'react';
+
+import ReactGa from 'react-ga';
 
 
 class App extends React.Component {
+
     state = {
         data: {},
         country: '',
     }
+
 
     async componentDidMount() {
         const fetchedData = await fetchData();
